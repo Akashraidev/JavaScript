@@ -52,3 +52,40 @@ function loginUserMsg(username) {
 
    //console.log(loginUserMsg("Akash Rai")); 
    console.log(loginUserMsg()); 
+
+
+   console.log("When who knows how many argument will come then according to situation we create our parameters");
+   
+   // When who knows how many argument will come then according to situation 
+   //we create our parameters
+
+//    function calculateCartPrice(...num) {
+//     return num
+//    }
+//    console.log(calculateCartPrice(200,400,500,300));
+
+
+   function calculateCartPrice(val1,val2,...num) {
+    return num
+   }
+   console.log(calculateCartPrice(200,400,500,300));
+
+
+const user = {
+    username: "Raman",
+    price:199
+}
+function HandleObject(anyObject) {
+    console.log(`user name is ${anyObject.username} and 
+    price is ${anyObject.price}`);    
+}
+//HandleObject(user)
+
+// or
+
+HandleObject(
+    {
+        username:"SAM",
+        price:399
+    }
+)
