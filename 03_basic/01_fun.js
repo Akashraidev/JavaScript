@@ -89,3 +89,12 @@ HandleObject(
         price:399
     }
 )
+
+const myNewArr = [200,300,100,600]
+function returnsecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnsecondValue(myNewArr));  // 300
+// or
+console.log(returnsecondValue([200,300,100,600])); //300
+
