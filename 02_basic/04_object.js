@@ -66,3 +66,38 @@ console.log("Enteries");
 console.log(Object.entries(tinderUser));  // array ke andr array ho jata hai  , har ek key value ko array mein bna dia jata hai 
 
 console.log(tinderUser.hasOwnProperty('islogged'))  // false
+
+// object Destructuring and JSON API
+
+console.log("+++++++object Destructuring+++++");
+
+const course = {
+    courseName: "JS in hindi",
+    price:"399",
+    courseInstructor:" courseInstructor Akash Rai "
+}
+
+// console.log(course.courseInstructor);
+
+
+// if we want or required to access courseInstructor many time 
+// then you will write  'course.courseInstructor' many time 
+// to reduce this redunadancy we shall use another method
+
+// const {courseInstructor} = course // with the help of this method we can reduce the "key name" lenght
+// console.log(courseInstructor);  //courseInstructor Akash Rai 
+// console.log(courseInstructor);   //courseInstructor Akash Rai 
+
+// reduce
+
+const {courseInstructor:instr} = course
+console.log(instr);  // courseInstructor Akash Rai 
+console.log(instr);   //courseInstructor Akash Rai 
+
+// JSON => is JS object notation
+
+{
+    name: "Akash",
+    courseNames = "JS in hindi",
+    pricee = "free"
+}
