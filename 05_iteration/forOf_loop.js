@@ -1,7 +1,7 @@
 // for of
 
 // ["", "", ""]   // array 
-// [{}, {}, {}]  // object under arra => {}
+// [{}, {}, {}]  // object under array => {}
 
 const arr = [1, 2, 3, 4, 5]
 console.log("use of 'for of' loop");
