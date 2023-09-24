@@ -4,6 +4,8 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 //     console.log(val);
 // } )
 
+// arrow funtion
+
 // coding.forEach( (item) => {
 //     console.log(item);
 // } )
